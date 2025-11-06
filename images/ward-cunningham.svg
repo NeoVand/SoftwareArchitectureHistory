@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
-  <rect width="640" height="360" fill="#334155" rx="24" />
-  <text x="48" y="84" font-family="'Segoe UI', Arial, sans-serif" font-size="44" fill="#fde68a" font-weight="700">Ward Cunningham</text>
-  <text x="48" y="130" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#f8fafc">Invented the wiki and coined the term "technical debt"</text>
-  <text x="48" y="156" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#f8fafc">to explain the cost of postponed clean-up work.</text>
-  <text x="48" y="206" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#e2e8f0">Human angle</text>
-  <text x="48" y="236" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#f8fafc">• Believed in communities sharing knowledge openly,</text>
-  <text x="48" y="262" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#f8fafc">  influencing both agile practices and documentation.</text>
-</svg>

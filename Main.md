@@ -65,9 +65,9 @@ flowchart LR
 
 #### Spotlight: The Professors Who Named the Discipline
 
-![Mary Shaw biography card](images/mary-shaw.svg)
+![Mary Shaw biography card](images/portraits/mary-shaw.svg)
 
-![David Garlan biography card](images/david-garlan.svg)
+![David Garlan biography card](images/portraits/david-garlan.svg)
 
 > [!IMPORTANT]
 > Shaw and Garlan were not just academics—they were systems thinkers who had collaborated with industry on the U.S. Department of Defense’s **Software Engineering Institute** projects. Their obsession with quality attributes (performance, modifiability, reliability) reframed architecture conversations from “boxes and arrows” to “how do these choices feel when software is lived in over decades?”
@@ -98,13 +98,13 @@ In February 2001, seventeen practitioners met at the Snowbird ski resort in Utah
 * **People to remember.** Kent Beck (father of Extreme Programming), Martin Fowler (thought leader at ThoughtWorks), Ward Cunningham (wiki inventor), and Jeff Sutherland (Scrum co-creator).
 * **Fun story:** The attendees initially disliked the term “lightweight processes.” After much joking about being “organizational anarchists,” they settled on “Agile,” though Fowler worried Americans would pronounce it “Ag-aisle.”
 
-![Kent Beck biography card](images/kent-beck.svg)
+![Kent Beck biography card](images/portraits/kent-beck.svg)
 
-![Martin Fowler biography card](images/martin-fowler.svg)
+![Martin Fowler biography card](images/portraits/martin-fowler.svg)
 
-![Ward Cunningham biography card](images/ward-cunningham.svg)
+![Ward Cunningham biography card](images/portraits/ward-cunningham.svg)
 
-![Jeff Sutherland biography card](images/jeff-sutherland.svg)
+![Jeff Sutherland biography card](images/portraits/jeff-sutherland.svg)
 
 > [!NOTE]
 > Each manifesto signer arrived with a different pain story. Beck wanted kinder projects after seeing developer burnout on Smalltalk teams. Fowler spent the 1990s translating academic ideas for enterprise teams and craved a vocabulary that executives would respect. Cunningham feared documentation rot and created the wiki to help communities converse in real time. Sutherland drew from lean manufacturing and his U.S. Air Force experience to give teams short feedback loops and clear missions.
@@ -239,7 +239,7 @@ By the mid-2000s, software was no longer just enterprise back-office tooling. So
 
 In 2004, **David Heinemeier Hansson** extracted Ruby on Rails from the Basecamp project. Rails championed:
 
-![David Heinemeier Hansson biography card](images/dhh.svg)
+![David Heinemeier Hansson biography card](images/portraits/dhh.svg)
 
 > [!INFO]
 > Hansson was a Danish student fascinated by both design and racing. His frustration with Java boilerplate and PHP hacks pushed him to craft a framework that let one developer ship polished products in days. Rails’ philosophy—embracing sensible defaults like RESTful routes and Model-View-Controller (MVC) scaffolding—made architecture approachable for startups that could not afford giant platform teams.
@@ -351,9 +351,9 @@ flowchart LR
 * Observability (logs, metrics, traces) became a must.
 * Requires mature DevOps culture; otherwise complexity skyrockets.
 
-![Adrian Cockcroft biography card](images/adrian-cockcroft.svg)
+![Adrian Cockcroft biography card](images/portraits/adrian-cockcroft.svg)
 
-![Werner Vogels biography card](images/werner-vogels.svg)
+![Werner Vogels biography card](images/portraits/werner-vogels.svg)
 
 > [!TIP]
 > Vogels’ “two-pizza teams” mantra at Amazon and Cockcroft’s storytelling at Netflix humanized microservices. They pushed for small, empowered groups that own services end-to-end, not because it was trendy, but because they had lived through pager fatigue when monoliths failed at 3 a.m. Their talks connected culture (autonomy, accountability) with architecture (service boundaries, automated recovery).
@@ -464,7 +464,7 @@ As systems distributed across dozens of services, traditional monitoring (CPU, m
 * **OpenTracing (2016)** and later **OpenTelemetry (2019)** standardized instrumentation.
 * **Service Level Objectives (SLOs)** quantified reliability expectations (e.g., 99.9% availability). Error budgets guided release decisions.
 
-![Charity Majors biography card](images/charity-majors.svg)
+![Charity Majors biography card](images/portraits/charity-majors.svg)
 
 > [!QUOTE]
 > “Monitoring is asking the system the questions you thought to pose. Observability is the ability to ask new ones.” — Charity Majors.

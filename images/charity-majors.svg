@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
-  <rect width="640" height="360" fill="#7c3aed" rx="24" />
-  <text x="48" y="84" font-family="'Segoe UI', Arial, sans-serif" font-size="42" fill="#ede9fe" font-weight="700">Charity Majors</text>
-  <text x="48" y="130" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#ede9fe">Co-founder of Honeycomb and advocate for modern</text>
-  <text x="48" y="156" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#ede9fe">observability practices.</text>
-  <text x="48" y="206" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#ddd6fe">Voice of the movement</text>
-  <text x="48" y="236" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#ede9fe">• Urged engineers to "own your ops" and treat</text>
-  <text x="48" y="262" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#ede9fe">  production as a rich source of feedback.</text>
-</svg>
