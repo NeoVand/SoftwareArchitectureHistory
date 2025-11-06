@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#0f172a" rx="24" />
+  <text x="48" y="82" font-family="'Segoe UI', Arial, sans-serif" font-size="40" fill="#38bdf8" font-weight="700">David Garlan</text>
+  <text x="48" y="128" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#e2e8f0">Researcher who showed how components, connectors,</text>
+  <text x="48" y="154" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#e2e8f0">and architectural styles influence system qualities.</text>
+  <text x="48" y="204" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#cbd5f5">Signature idea</text>
+  <text x="48" y="234" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#e2e8f0">• Cataloged reusable styles (pipes-and-filters, event</text>
+  <text x="48" y="260" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#e2e8f0">  systems, layered systems) that still underpin microservices</text>
+  <text x="48" y="286" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#e2e8f0">  and serverless design discussions today.</text>
+</svg>

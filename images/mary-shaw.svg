@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1d4ed8" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0.95" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" fill="url(#bg)" rx="24" />
+  <text x="48" y="88" font-family="'Segoe UI', Arial, sans-serif" font-size="44" fill="#f8fafc" font-weight="700">Mary Shaw</text>
+  <text x="48" y="132" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#e2e8f0">Carnegie Mellon professor, co-author of the 1996</text>
+  <text x="48" y="158" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#e2e8f0">landmark book "Software Architecture: Perspectives</text>
+  <text x="48" y="184" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#e2e8f0">on an Emerging Discipline."</text>
+  <text x="48" y="230" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#cbd5f5">Why she mattered</text>
+  <text x="48" y="258" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#e2e8f0">• Framed architecture as its own research area.</text>
+  <text x="48" y="286" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#e2e8f0">• Mentored generations of architects focused on quality</text>
+  <text x="48" y="312" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#e2e8f0">  attributes like modifiability and performance.</text>
+</svg>
