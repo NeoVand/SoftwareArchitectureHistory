@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
+  <defs>
+    <linearGradient id="grad-werner-vogels" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d2aa14" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#5d4d11" stop-opacity="0.98" />
+    </linearGradient>
+    <linearGradient id="accent-werner-vogels" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#352d10" stop-opacity="0.75" />
+      <stop offset="100%" stop-color="#352d10" stop-opacity="0.05" />
+    </linearGradient>
+  </defs>
+  <rect width="640" height="360" rx="32" fill="url(#grad-werner-vogels)" />
+  <circle cx="141" cy="130" r="72" fill="#f4f4f5" opacity="0.92" />
+  <path d="M 70 209 q 70 50 141 0"
+        fill="url(#accent-werner-vogels)" opacity="0.8" />
+    <text x="48" y="92" font-size="40" font-family="'Segoe UI', Arial, sans-serif" fill="#f8fafc" font-weight="700">Werner Vogels</text>
+  <text x="48" y="122" font-size="22" font-family="'Segoe UI', Arial, sans-serif" fill="#e2e8f0">AWS chief technologist</text>
+  <text x="48" y="152" font-size="20" font-family="'Segoe UI', Arial, sans-serif" fill="#e2e8f0">• You build it, you run it</text>
+</svg>

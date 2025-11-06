@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#2563eb" rx="24" />
+  <text x="48" y="84" font-family="'Segoe UI', Arial, sans-serif" font-size="44" fill="#bfdbfe" font-weight="700">Jeff Sutherland</text>
+  <text x="48" y="130" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#e8f1ff">Former fighter pilot who co-created Scrum with</text>
+  <text x="48" y="156" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#e8f1ff">Ken Schwaber after studying lean manufacturing.</text>
+  <text x="48" y="206" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#dbeafe">What inspired him</text>
+  <text x="48" y="236" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#e8f1ff">• Brought cockpit discipline to software teams: short</text>
+  <text x="48" y="262" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#e8f1ff">  feedback loops, clear roles, mission focus.</text>
+</svg>

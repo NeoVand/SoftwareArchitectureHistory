@@ -63,6 +63,18 @@ flowchart LR
 * **The Gang of Four** published _Design Patterns_ (1994), giving developers a shared vocabulary: factory, singleton, observer.
 * **Robert “Uncle Bob” Martin** was sharpening the SOLID principles, which would later underpin clean code and maintainable designs.
 
+#### Spotlight: The Professors Who Named the Discipline
+
+![Mary Shaw portrait (stylized placeholder)](images/portraits/mary-shaw.svg)
+
+![David Garlan portrait (stylized placeholder)](images/portraits/david-garlan.svg)
+
+> [!IMPORTANT]
+> Shaw and Garlan were not just academics—they were systems thinkers who had collaborated with industry on the U.S. Department of Defense’s **Software Engineering Institute** projects. Their obsession with quality attributes (performance, modifiability, reliability) reframed architecture conversations from “boxes and arrows” to “how do these choices feel when software is lived in over decades?”
+
+> [!TIP]
+> When you read modern architecture decision records (ADRs), you are seeing Shaw and Garlan’s influence: they advocated documenting not only what the structure is, but _why_ specific trade-offs were made.
+
 ### Cultural Backdrop
 
 * **Y2K preparations** consumed late 1990s calendars as teams replaced two-digit year fields. The bug largely fizzled out but left behind improved testing discipline.
@@ -85,6 +97,52 @@ In February 2001, seventeen practitioners met at the Snowbird ski resort in Utah
 * **Principles.** Short iterations, self-organizing teams, sustainable pace, and continuous attention to technical excellence.
 * **People to remember.** Kent Beck (father of Extreme Programming), Martin Fowler (thought leader at ThoughtWorks), Ward Cunningham (wiki inventor), and Jeff Sutherland (Scrum co-creator).
 * **Fun story:** The attendees initially disliked the term “lightweight processes.” After much joking about being “organizational anarchists,” they settled on “Agile,” though Fowler worried Americans would pronounce it “Ag-aisle.”
+
+![Kent Beck portrait (stylized placeholder)](images/portraits/kent-beck.svg)
+
+![Martin Fowler portrait (stylized placeholder)](images/portraits/martin-fowler.svg)
+
+![Ward Cunningham portrait (stylized placeholder)](images/portraits/ward-cunningham.svg)
+
+![Jeff Sutherland portrait (stylized placeholder)](images/portraits/jeff-sutherland.svg)
+
+> [!NOTE]
+> Each manifesto signer arrived with a different pain story. Beck wanted kinder projects after seeing developer burnout on Smalltalk teams. Fowler spent the 1990s translating academic ideas for enterprise teams and craved a vocabulary that executives would respect. Cunningham feared documentation rot and created the wiki to help communities converse in real time. Sutherland drew from lean manufacturing and his U.S. Air Force experience to give teams short feedback loops and clear missions.
+
+#### More Manifesto Voices
+
+![Alistair Cockburn portrait (stylized placeholder)](images/portraits/alistair-cockburn.svg)
+_Alistair Cockburn recorded how real teams shared knowledge, leading to the Crystal family of lightweight methods that inspired today’s tailoring mindset._
+
+![Ken Schwaber portrait (stylized placeholder)](images/portraits/ken-schwaber.svg)
+_Ken Schwaber championed Scrum as a disciplined wrapper around empirical process control, convincing executives that agility could scale._
+
+![Arie van Bennekum portrait (stylized placeholder)](images/portraits/arie-van-bennekum.svg)
+_Arie van Bennekum brought facilitation skills from Dutch public-sector transformations, helping the manifesto emphasize people and collaboration._
+
+![Mike Beedle portrait (stylized placeholder)](images/portraits/mike-beedle.svg)
+_Mike Beedle translated Scrum into patterns that global enterprises could adopt, paving the way for the Scaled Agile movement._
+
+```mermaid
+mindmap
+  root((Agile Influences))
+    "Software Craftsmanship":::craft
+      "Kent Beck":::craft
+      "Ward Cunningham":::craft
+    "Process Pragmatists":::process
+      "Martin Fowler":::process
+      "Alistair Cockburn":::process
+    "Lean & Systems Thinking":::lean
+      "Jeff Sutherland":::lean
+      "Ken Schwaber":::lean
+    "Toolsmiths":::tools
+      "Arie van Bennekum":::tools
+      "Mike Beedle":::tools
+classDef craft fill:#f97316,stroke:#7c2d12,color:#0f172a;
+classDef process fill:#047857,stroke:#064e3b,color:#ecfeff;
+classDef lean fill:#1d4ed8,stroke:#1e3a8a,color:#eff6ff;
+classDef tools fill:#7c3aed,stroke:#5b21b6,color:#ede9fe;
+```
 
 #### Key Agile Practices Explained
 
@@ -195,6 +253,11 @@ By the mid-2000s, software was no longer just enterprise back-office tooling. So
 
 In 2004, **David Heinemeier Hansson** extracted Ruby on Rails from the Basecamp project. Rails championed:
 
+![David Heinemeier Hansson portrait (stylized placeholder)](images/portraits/dhh.svg)
+
+> [!INFO]
+> Hansson was a Danish student fascinated by both design and racing. His frustration with Java boilerplate and PHP hacks pushed him to craft a framework that let one developer ship polished products in days. Rails’ philosophy—embracing sensible defaults like RESTful routes and Model-View-Controller (MVC) scaffolding—made architecture approachable for startups that could not afford giant platform teams.
+
 * **Model-View-Controller (MVC)** structure by default.
 * **Convention over configuration.** If you name your database table `users`, Rails will assume the model class is `User`. Less boilerplate.
 * **Scaffolding generators.** With a single command, developers spun up CRUD interfaces, letting startups prototype in days.
@@ -273,6 +336,16 @@ In 2010, Jez Humble and David Farley published **_Continuous Delivery_**, descri
 * **Infrastructure as Code (IaC).** Tools like **Terraform (2014)** and **AWS CloudFormation (2011)** let teams declare infrastructure in version-controlled files.
 * **ChatOps.** Teams used chat tools (e.g., HipChat, later Slack) to run deployments via bots, making operations collaborative and transparent.
 
+```mermaid
+flowchart LR
+    A[Commit to Git] --> B[Continuous Integration]
+    B -->|Automated tests| C[Artifact Repository]
+    C --> D[Continuous Delivery]
+    D -->|Declarative manifests| E[Kubernetes / Cloud]
+    E --> F[Observability Stack]
+    F -->|Feedback| A
+```
+
 ### Microservices Enter the Scene
 
 **Microservices** are small, independently deployable services that together form an application. While the concept evolved gradually, two moments stand out:
@@ -291,6 +364,13 @@ In 2010, Jez Humble and David Farley published **_Continuous Delivery_**, descri
 * Distributed systems are hard: network latency, partial failures, and eventual consistency.
 * Observability (logs, metrics, traces) became a must.
 * Requires mature DevOps culture; otherwise complexity skyrockets.
+
+![Adrian Cockcroft portrait (stylized placeholder)](images/portraits/adrian-cockcroft.svg)
+
+![Werner Vogels portrait (stylized placeholder)](images/portraits/werner-vogels.svg)
+
+> [!TIP]
+> Vogels’ “two-pizza teams” mantra at Amazon and Cockcroft’s storytelling at Netflix humanized microservices. They pushed for small, empowered groups that own services end-to-end, not because it was trendy, but because they had lived through pager fatigue when monoliths failed at 3 a.m. Their talks connected culture (autonomy, accountability) with architecture (service boundaries, automated recovery).
 
 ### 2013: Docker Sparks the Container Revolution
 
@@ -397,6 +477,14 @@ As systems distributed across dozens of services, traditional monitoring (CPU, m
 * **Logs, metrics, traces** – the “three pillars.” Tools like **ELK Stack (Elasticsearch, Logstash, Kibana)**, **Prometheus (2015)**, and **Jaeger (2017)** emerged.
 * **OpenTracing (2016)** and later **OpenTelemetry (2019)** standardized instrumentation.
 * **Service Level Objectives (SLOs)** quantified reliability expectations (e.g., 99.9% availability). Error budgets guided release decisions.
+
+![Charity Majors portrait (stylized placeholder)](images/portraits/charity-majors.svg)
+
+> [!QUOTE]
+> “Monitoring is asking the system the questions you thought to pose. Observability is the ability to ask new ones.” — Charity Majors.
+
+> [!TIP]
+> Majors’ experience running production databases at Parse (acquired by Facebook) convinced her that dashboards alone could not explain complex outages. She co-founded Honeycomb to give engineers interactive tools for debugging “unknown unknowns,” shifting architecture conversations toward rich event data and high-cardinality analysis.
 
 ```yaml
 # Example Prometheus alert (2018 vintage)
@@ -698,19 +786,30 @@ These anecdotes remind us that architecture is deeply human: creativity, collabo
 
 * **API (Application Programming Interface):** A contract that allows software components to communicate. RESTful APIs use HTTP verbs; GraphQL and gRPC are newer alternatives.
 * **Blameless Postmortem:** A meeting after an incident focusing on learning, not blame. Encourages honesty and systemic fixes.
+* **Chaos Engineering:** Deliberately injecting failures (like shutting down servers or adding latency) to verify a system’s resilience and to build operator confidence.
 * **CI/CD (Continuous Integration/Continuous Delivery):** Automated processes that build, test, and deploy code whenever developers commit changes.
 * **Container:** A lightweight package with an application and its dependencies. Docker popularized them; Kubernetes orchestrates them.
 * **DevOps:** Cultural and technical movement that unites development and operations to deliver software quickly and reliably.
 * **Edge Computing:** Processing data close to where it is generated (e.g., on devices or local gateways) to reduce latency.
 * **Event-Driven Architecture:** Systems that react to events (messages) rather than synchronous requests. Enables loose coupling.
+* **FinOps:** A discipline that brings together finance, engineering, and product teams to manage cloud spending without slowing down delivery.
 * **Function-as-a-Service (FaaS):** Cloud offering where individual functions execute in response to events; billing is per invocation.
 * **GitOps:** Managing infrastructure and deployments through Git repositories and automated reconciliation.
+* **High-Cardinality Data:** Telemetry with many possible values (like user IDs or request IDs) that helps pinpoint specific issues in observability systems.
+* **Infrastructure as Code (IaC):** Managing infrastructure through declarative files and automation tools instead of manual console work.
+* **Lean Manufacturing / Lean Thinking:** Management philosophy focused on eliminating waste and amplifying learning; inspired Agile practices like Scrum and Kanban.
 * **Microservices:** Architectural style where applications comprise small, independently deployable services.
+* **Model-View-Controller (MVC):** UI pattern separating data (model), presentation (view), and input handling (controller); central to frameworks like Rails.
 * **Monolith:** Single deployable unit containing an entire application. Opposite of microservices.
 * **Observability:** Ability to understand a system’s internal state from external outputs (logs, metrics, traces).
+* **Platform Engineering:** Building internal platforms (portals, pipelines, self-service tooling) that give product teams paved roads for delivery.
+* **Representational State Transfer (REST):** A style of designing networked APIs using standard HTTP verbs (GET, POST, PUT, DELETE) and stateless communication.
+* **Service Mesh:** Infrastructure layer that adds traffic routing, security, and observability between microservices without changing application code.
 * **SLO (Service Level Objective):** Target reliability metric (e.g., 99.95% uptime). Error budgets quantify allowable downtime.
 * **SOLID Principles:** Five design guidelines (Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, Dependency Inversion) for maintainable code.
 * **SOA (Service-Oriented Architecture):** Architectural style emphasizing reusable services with standardized contracts, often using SOAP.
+* **Software Engineering Institute (SEI):** Carnegie Mellon research center that produced early software architecture frameworks and maturity models.
+* **Technical Debt:** The implied cost of rework caused by choosing faster, less clean solutions now instead of better approaches that take longer.
 * **Zero Trust:** Security model assuming no implicit trust; every request is authenticated and authorized.
 
 ---
