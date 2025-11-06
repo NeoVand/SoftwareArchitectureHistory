@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
-  <rect width="640" height="360" fill="#111827" rx="24" />
-  <text x="48" y="84" font-family="'Segoe UI', Arial, sans-serif" font-size="42" fill="#fbbf24" font-weight="700">Werner Vogels</text>
-  <text x="48" y="130" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#f8fafc">Amazon CTO who championed the "you build it, you run it"</text>
-  <text x="48" y="156" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#f8fafc">ethos that underpins DevOps.</text>
-  <text x="48" y="206" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#e5e7eb">Backstory</text>
-  <text x="48" y="236" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#f8fafc">• Learned from Amazon's early scaling crises, insisting</text>
-  <text x="48" y="262" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#f8fafc">  teams own services end-to-end to move faster.</text>
-</svg>

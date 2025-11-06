@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
-  <rect width="640" height="360" fill="#991b1b" rx="24" />
-  <text x="48" y="84" font-family="'Segoe UI', Arial, sans-serif" font-size="42" fill="#fee2e2" font-weight="700">David Heinemeier Hansson</text>
-  <text x="48" y="132" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#fee2e2">Basecamp co-founder and creator of Ruby on Rails.</text>
-  <text x="48" y="182" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#fecaca">Motivation</text>
-  <text x="48" y="212" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#fee2e2">• Wanted web development to feel joyful and fast,</text>
-  <text x="48" y="238" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#fee2e2">  bundling conventions (MVC, RESTful routes) into a</text>
-  <text x="48" y="264" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#fee2e2">  single toolkit that empowered small teams.</text>
-</svg>

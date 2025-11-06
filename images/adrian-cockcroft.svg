@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
-  <rect width="640" height="360" fill="#1d4ed8" rx="24" />
-  <text x="48" y="84" font-family="'Segoe UI', Arial, sans-serif" font-size="40" fill="#facc15" font-weight="700">Adrian Cockcroft</text>
-  <text x="48" y="130" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#bfdbfe">Netflix cloud architect who popularized microservices</text>
-  <text x="48" y="156" font-family="'Segoe UI', Arial, sans-serif" font-size="20" fill="#bfdbfe">through conference storytelling and open source.</text>
-  <text x="48" y="206" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#dbeafe">Impact</text>
-  <text x="48" y="236" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#bfdbfe">• Championed chaos engineering and culture-driven</text>
-  <text x="48" y="262" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#bfdbfe">  architectures, influencing the CNCF era.</text>
-</svg>
